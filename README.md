@@ -1,20 +1,18 @@
-# Basic Interview Test
-This is a simple React exercise that covers some basic React.
+# Starting the app
+After installing the necessary packages, the project can be started by running npm start
 
-It should take around 30 mins to complete.
+## Functionality of the application
 
-Currently the screens render hard coded data. These need to be updated to reflect what is inside mockUserData.
-Go through these components, and wire things up so the interface works as per tasks below:
+1) Typescript used with the required basic typing in place.
+2) Application displaying mock data.
+3) Data searchable by first and/or last name.
+4) Users selectable.
+5) All selected users can be hidden or shown by toggling the toolbar checkbox.
+6) Correct count of selected items shown when taking into account all possible scenarios
 
-## The Task
-These tasks are intentionally vague. Think about your previous experience and do what you are happy to submit. :-)
+## Notes
 
-1) Use typescript for all props and add typings for the mockUserData.
-2) Wire up components to use the mocked data.
-3) We would like to be able to search for a user by name.
-4) We would like to be able to check and uncheck a UserRow.
-5) We would like to be be able to hide and show all the checked UserRows.
-6) Show the relevant count of selected items in the toolbar
-
-> We want you to submit code that you are confident would pass a PR from the rest of your team.
+There is a lot of props drilling whick would not be the case if Context or something like Reactive variables are used. 
+I was reluctant to change the structure of the all but things can be improved so there is not need to pass data up as it is done at present.
+Only types are used as there is no data that is complex enough so interfaces are requred.
 
