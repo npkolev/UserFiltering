@@ -12,7 +12,7 @@ After installing the necessary packages, the project can be started by running n
 
 ## Notes
 
-There is a lot of props drilling whick would not be the case if Context or something like Reactive variables are used. 
+There is a lot of props drilling which would not be the case if Context or something like Reactive variables are used. 
 I was reluctant to change the structure of the all but things can be improved so there is not need to pass data up as it is done at present.
 Only types are used as there is no data that is complex enough so interfaces are requred.
 
